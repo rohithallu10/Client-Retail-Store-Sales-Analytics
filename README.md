@@ -1,104 +1,102 @@
-# 📊 Data-Driven Sales Analysis for Client Retail Store
 
-*A Data-Driven Approach to Optimizing Sales and Marketing Strategies*  
-**Presented by:** Rohith Allu
+Data-Driven Sales Analysis for Client Retail Store
+A Data-Driven Approach to Optimizing Sales and Marketing Strategies
+Presented by: Rohith Allu
 
----
+Business Objective
+Analyze sales, customer behavior, and product performance.
 
-## 🚀 Business Objective
+Provide actionable insights to improve CRM, marketing, and campaign strategies.
 
-- Analyze sales, customer behavior, and product performance.
-- Provide actionable insights to improve CRM, marketing, and campaign strategies.
-- Identify trends and patterns to optimize future strategies and revenue growth.
+Identify trends and patterns to optimize future strategies and drive revenue growth.
 
----
+Business Context
+The Client is a major retail chain in India with over 500 stores. This project analyzes point-of-sale data from 39 randomly selected stores, covering customer transactions, payments, and product information between September 2021 and October 2023.
 
-## 🏢 Business Context
+Problem Statement
+No centralized, data-driven decision-making framework.
 
-Client is a major retail chain in India with 500+ stores. This project analyzes data from 39 randomly selected stores, covering transactions, customers, payments, and product info from **September 2021 to October 2023**.
+Presence of data inconsistencies, duplicates, and missing fields.
 
----
+Absence of structured customer segmentation and product performance benchmarking.
 
-## ❗ Problem Statement
+Key Focus Areas
+Customer purchasing behavior using RFM (Recency, Frequency, Monetary) analysis
 
-- Lack of consolidated insights across business units.
-- Data inconsistencies and duplicates affecting reporting accuracy.
-- No established customer segmentation or performance benchmarking.
+Regional, category, and channel-wise performance
 
----
+Store-level benchmarking
 
-## 🔍 Key Focus Areas
+Trend analysis for peak seasons
 
-- Customer purchasing behavior (Recency, Frequency, Monetary – RFM)
-- Regional, category, and channel-wise performance
-- Store performance benchmarking
-- Peak period trend analysis
-- Segment-level revenue contributions
+Segment-wise revenue contributions
 
----
+Tools Used
+SQL Server – Data cleaning, transformations, joins, and aggregations
 
-## 🛠 Tools Used
+Power BI – Interactive dashboards, KPIs, visual storytelling
 
-- **SQL Server** – Data cleaning, transformation, validation  
-- **Power BI** – Visualization and dashboard creation  
-- **Excel** – Data summaries and validation  
-- **NTILE Function** – RFM Segmentation  
-- **DAX** – KPIs and custom metrics in Power BI
+Excel – Exploratory data analysis and cross-validation
 
----
+DAX – Custom measures and time-based calculations in Power BI
 
-## 📈 Key Insights
+NTILE Function – Used for RFM segmentation
 
-- 🚀 **Customer Growth** exploded in 2022; peaked in May & Aug 2023  
-- 🌍 **Top Region**: Andhra Pradesh leads in revenue and customer base  
-- 🏪 **Best Store**: ST103 generated ₹3.3M (3.6x more than ST143)  
-- 🛍 **Top Channel**: In-store channel has highest conversion and cross-sell  
-- 🧸 **Popular Categories**:
-  - South: Toys & Gifts
-  - West: Baby Products
-  - North: Balanced demand
-- 💳 **Segment Revenue**:
-  - Premium: ₹5.9M (only 9.7K customers)
-  - Standard: ₹2.1M (largest base, lowest contribution)
-- 🔄 **Data Cleanup**:
-  - Over 14K records reconciled, corrected, or removed
-  - Final cleaned table with ~98K valid entries
+Key Insights
+Strong customer growth in 2022, peaking in May and August 2023
 
----
+Andhra Pradesh emerged as the top-performing state by both revenue and customer base
 
-## ✅ Recommendations
+Store ST103 generated ₹3.3M in revenue (3.6x more than the second-best store ST143)
 
-- Replicate successful campaigns from May/Aug 2023
-- Focus investments in South & Andhra Pradesh
-- Personalized CRM strategies by customer segment
-- Improve inventory planning by regional product preferences
-- Introduce loyalty benefits for Premium customers
-- Offer smart discounts to activate Standard customers
+In-store channel delivered the highest sales and upselling opportunities
 
----
+Category performance varied by region:
 
-## 📦 Deliverables
+South: High demand for Toys & Gifts
 
-- ✅ Final SQL-cleaned data (`Finalised_Records_1`)
-- 📊 Interactive Power BI Dashboard (link below)
-- 📝 Excel-based summary report
-- 📋 Insight report with growth strategy suggestions
+West: Strong preference for Baby Products
 
----
+North: Even demand across all top categories
 
-## 🔗 View Dashboard
+Segment performance:
 
-▶️ **[Click here to view the Power BI Dashboard](https://app.powerbi.com/your-dashboard-link-here)**  
-*Note: Make sure the dashboard is published and shared with appropriate permissions.*
+Premium segment (9.7K customers): ₹5.9M revenue
 
----
+Standard segment (38.7K customers): ₹2.1M revenue
 
-## 📬 Contact
+Over 14,000 inconsistent or duplicate records corrected or removed
 
-**Rohith Allu**  
-*Aspiring Data Analyst | SQL | Power BI | Python (Learning)*  
-📧 rohithallu@example.com  
-📍 India
+Final cleaned dataset contained approximately 98,000 high-quality records
 
----
+Recommendations
+Replicate successful marketing campaigns from May and August 2023
 
+Invest in high-performing regions like Andhra Pradesh and the South
+
+Apply personalized CRM strategies based on RFM segments
+
+Optimize inventory by region-specific category demand
+
+Retain premium customers through exclusive loyalty programs
+
+Use intelligent discounting and behavioral targeting for standard customers
+
+Deliverables
+Cleaned and validated SQL dataset: Finalised_Records_1
+
+Power BI dashboard with slicers, KPIs, and drill-down views
+
+Excel-based summaries and validation checks
+
+Insight and strategy report for business teams
+
+View Dashboard
+Click here to view the Power BI Dashboard
+Note: Ensure the link has appropriate sharing permissions enabled for public access.
+
+Contact
+Rohith Allu
+Aspiring Data Analyst | SQL | Power BI | Python (Learning)
+Email: rohithallu@example.com
+Location: India
