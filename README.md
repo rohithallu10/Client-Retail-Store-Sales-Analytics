@@ -97,4 +97,4 @@ The Client is a major retail chain in India with over 500 stores. This project a
 **Rohith Allu**  
 Aspiring Data Analyst | SQL | Power BI | Python 
 Email: rohithallu@example.com  
-Location: India
+Location: Banglore, India
